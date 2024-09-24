@@ -1,5 +1,9 @@
-number = int(input("Enter a number to see its multiplication table: "))
-multipliers = [1,2,3,4,5,6,7,8,9,10]
-for i in multipliers :
+#!/usr/bin/python3
+
+# Get user input
+number = int(input("Enter a number to generate its multiplication table: "))
+
+# Generate the multiplication table
+for i in range(1, 11):  # Correct range for 1 to 10
     result = number * i
-    print(f"{number} * {i} = {result}")
+    print(f"{number} x {i} = {result}")
