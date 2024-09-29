@@ -32,5 +32,9 @@ def main():
     elif scale == 'F':
         # Convert Fahrenheit to Celsius
         converted_temp = convert_to_celsius(temperature)
-        print(f"{temperature}°F 
+        print(f"{temperature}°F is {converted_temp}°C")
+    else:
+        print("Invalid scale. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
+if __name__ == "__main__":
+    main()
