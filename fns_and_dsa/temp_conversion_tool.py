@@ -1,5 +1,4 @@
-global 
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Factor for converting Fahrenheit to Celsius
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Factor for converting Celsius to Fahrenheit
 FAHRENHEIT_OFFSET = 32  # Offset for converting Fahrenheit to Celsius
 
@@ -28,11 +27,4 @@ def main():
     if scale == 'C':
         # Convert Celsius to Fahrenheit
         converted_temp = convert_to_fahrenheit(temperature)
-        print(f"{temperature}°C is {converted_temp}°F")
-    elif scale == 'F':
-        # Convert Fahrenheit to Celsius
-        converted_temp = convert_to_celsius(temperature)
-        print(f"{temperature}°F is {converted_temp}°C")
-    else:
-        print("Invalid scale. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
