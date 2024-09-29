@@ -7,7 +7,7 @@ def perform_operation(num1, num2, operation):
     Parameters:
     num1 (float): The first number
     num2 (float): The second number
-    operation (str): The operation to perform ('sum', 'sub', 'mul', 'div')
+    operation (str): The operation to perform ['sum', 'sub', 'mul', 'div']
     
     Returns:
     float or str: The result of the arithmetic operation or an error message for division by zero
