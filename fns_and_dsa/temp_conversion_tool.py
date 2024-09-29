@@ -36,5 +36,3 @@ def main():
     else:
         print("Invalid scale. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
-if __name__ == "__main__":
-    main()
