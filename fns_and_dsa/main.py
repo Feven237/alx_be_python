@@ -1,6 +1,6 @@
 # main.py
 
-from arithmetic_operations import perform_operation
+from .arithmetic_operations import perform_operation
 
 # Example numbers
 num1 = float(input("Enter the first number: "))
