@@ -7,12 +7,12 @@ def safe_divide(numerator, denominator):
         
         # Perform division
         result = numerator / denominator
-        return f"The result of dividing {numerator} by {denominator} is: {result}"
-    
+        return f"The result of the division is {result}"  # Adjusted output format
+        
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     
     except ValueError:
-        return "Error: Please enter numeric values only."
+        return "Error: Non-numeric input provided. Please provide valid numbers."
 
 
